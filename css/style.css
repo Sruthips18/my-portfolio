@@ -1,0 +1,44 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: auto;
+}
+.hero{
+    height:100vh;
+    width: auto;
+    padding: 5px 5px;
+    background: linear-gradient(to bottom, #e0f7fa, #ede7f6);
+}
+.hero-1{
+    margin-top: 25%;
+}
+
+a {
+    text-decoration: none; 
+  }
+a.button {
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: #f9f791; 
+    text-decoration: none; 
+    margin-left: 32%;
+    color: black;
+}
+a.button:hover {
+    background-color: #ebdd3d; 
+}
+.image-move-continuous {
+    animation: moveTopToBottom 3s ease-in-out infinite;
+}
+      
+@keyframes moveTopToBottom {
+    0% {
+    transform: translateY(-10px); /* Start above the original position */
+}
+    50% {
+    transform: translateY(20px); /* Move down to 10px below the original position */
+}
+    100% {
+    transform: translateY(-10px); /* Return back to the top position */
+}
+}
