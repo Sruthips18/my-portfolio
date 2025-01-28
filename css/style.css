@@ -42,3 +42,26 @@ a.button:hover {
     transform: translateY(-10px); /* Return back to the top position */
 }
 }
+
+/* about section------------------------------------- */
+.content {
+    opacity: 0; 
+    transform: translateY(100px); 
+    animation: slideUp 1.5s ease-in-out forwards; 
+    cursor: pointer;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  /* skill */
+  .skill{
+    margin-left: 10%;
+  }
