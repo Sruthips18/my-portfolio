@@ -64,7 +64,11 @@ a.button:hover {
       transform: translateY(0); 
     }
   }
-  
+  /* education */
+.card-education{
+  border-radius: 3px;
+}
+
   /* skill */
   .skill{
     margin-left: 10%;
