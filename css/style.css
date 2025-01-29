@@ -2,12 +2,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
     padding: 0%;
     margin: auto;
+    background: linear-gradient(to bottom, #e0f7fa, #ede7f6);
+}
+.navbar{
+  background: linear-gradient(to bottom, #e0f7fa, #ede7f6);
 }
 .hero{
     height:100vh;
     width: auto;
     padding: 5px 5px;
-    background: linear-gradient(to bottom, #e0f7fa, #ede7f6);
 }
 .hero-1{
     margin-top: 25%;
@@ -54,13 +57,14 @@ a.button:hover {
   @keyframes slideUp {
     0% {
       opacity: 0;
-      transform: translateY(100px); 
+      transform: translateY(80px); 
     }
     100% {
       opacity: 1;
       transform: translateY(0); 
     }
   }
+  
   /* skill */
   .skill{
     margin-left: 10%;

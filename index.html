@@ -9,20 +9,110 @@
     <title>My Portfolio</title>
 </head>
 <body>
-     <div class="container-fluid hero">
+      <!-- ----------------navbar--------------------------------------------------- -->
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Sruthi PS</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EDUCATION</a>
+                  </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- ----------------navbar ends----------------------------------------------- -->
+       <!-- ----------------header ----------------------------------------------------- -->
+       <div class="container-fluid hero mt-5">
         <div class="row">
             <div class="col-lg-6">
-               <div class="hero-1">
-                    <p class="d-flex justify-content-center">Hey there!</p>
+               <div class="hero-1 content">
+                    <p class="d-flex justify-content-center ">Hey there!</p>
                     <h4 class="d-flex justify-content-center">Iam Sruthi P S</h4>
                     <h6 class="d-flex justify-content-center">Frontend Developer</h6>
-                    <a href="about.html" class="button">ABOUT ME</a>
+                    <a href="" class="button">Download CV</a>
                </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-5">
                 <img src="image/img.png" alt="" class=" image-move-continuous img-fluid profile-img">
             </div>
         </div>
      </div>
+    <!-- -------------- header section ends ------------------------------------------ -->
+    <!-- -------------- About section starts ---------------------------------------- -->
+    <div class="container">
+        <div class="row mt-4">
+            <h3 class="text-center text-dark text-decoration-underline mt-5">ABOUT ME</h1>
+            <div class="col-lg-5 mt-5">
+                <img src="image/about-img.png" alt="" width="500px" class="">
+            </div>
+            <div class="col-lg-7 col-md-6 col-12 mt-5 ">
+                <h3 class="fw-bolder">Frontend Developer</h3>
+                <p>I am a skilled web developer proficient in HTML, CSS, and Bootstrap.</p>
+                <div class="row">
+                    <div class="col-lg-6 ">
+                    <p><strong>Name :</strong> Sruthi PS</p>
+                    <p><strong>Degree :</strong> Master of Computer Application(MCA)</p>
+                    <p><strong>Address :</strong> Kozhikode,Kerala</p>
+                    <p><strong>Contact :</strong> 8848092013</p>
+                                            
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12" style="width: 300px; height: 100px;">
+                    <p><strong>Freenlance :</strong> Not Available</p>
+                    <p><strong>Email :</strong> sruthipskappummal@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>                
+    </div>
+    <!-- -------------- About section ends ------------------------------------------ -->
+    <!-----------------skill section starts------------------------------------  -->
+    <div class="container">
+        <h2 class="d-flex justify-content-center mt-5 text-decoration-underline">Skills</h2>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <ul>
+                <li class="skill">Proficiency in HTML5</li>
+                <li class="skill">Creating forms with proper validation</li>
+                <li class="skill">Structuring content using lists</li>
+                <li class="skill">Mastering layout techniques: Flexbox and CSS Grid.</li>
+                <li class="skill">Adding animations (@keyframes) and transitions (transition property).</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+            <ul>
+                <li class="skill">Responsive design using media queries.</li>
+                <li class="skill">Responsive Grid System: Creating layouts with Bootstrap's grid (e.g., .container, .row, .col-md-6).</li>
+                <li class="skill">Customizing Bootstrap themes</li>
+                <li class="skill">Managing box model (margin, padding, borders, content).</li>
+                <li class="skill">Styling with pseudo-classes </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------skill section ends------------------------------------  -->
 </body>
 </html>
