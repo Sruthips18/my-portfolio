@@ -2,10 +2,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     padding: 0%;
     margin: auto;
-    background: linear-gradient(to bottom, #e0f7fa, #ede7f6);
-}
-.navbar{
-  background: linear-gradient(to bottom, #e0f7fa, #ede7f6);
 }
 .hero{
     height:100vh;
@@ -54,7 +50,3 @@ a.button:hover {
   border-radius: 3px;
 }
 
-  /* skill */
-  .skill{
-    margin-left: 10%;
-  }
