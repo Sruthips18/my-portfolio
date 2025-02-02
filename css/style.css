@@ -50,3 +50,9 @@ a.button:hover {
   border-radius: 3px;
 }
 
+ /* project */
+
+.img-details {
+  color: black;
+  background-color:white; 
+}
