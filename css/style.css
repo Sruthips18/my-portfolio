@@ -3,49 +3,38 @@ body{
     padding: 0%;
     margin: auto;
 }
+.navbar-brand{
+  font-family:'Times New Roman', Times, serif;
+  color: brown;
+}
 .hero{
-    height:100vh;
+    height:80vh;
     width: auto;
-    padding: 5px 5px;
+    padding: 10px 15px;
 }
-.hero-1{
-    margin-top: 10%;
+.header{
+  margin-left: 22%;
+  width: 50%;
+  padding: 40px;
+  border-radius: 5px;
+  border: black 1px solid;
 }
-
 a {
     text-decoration: none; 
   }
 a.button {
     display: inline-block;
-    padding: 10px 60px;
+    margin-left: 30%;
+    padding: 10px 50px;
     background-color: #f9f791; 
     text-decoration: none; 
-    margin-left: 40%;
     color: black;
 }
 a.button:hover {
     background-color: #ebdd3d; 
 }
 
-/* about section------------------------------------- */
-.content {
-    opacity: 0; 
-    transform: translateY(100px); 
-    animation: slideUp 1.5s ease-in-out forwards; 
-    cursor: pointer;
-  }
-  
-  @keyframes slideUp {
-    0% {
-      opacity: 0;
-      transform: translateY(80px); 
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0); 
-    }
-  }
-  /* education */
+/* education */
 .card-education{
   border-radius: 3px;
 }
