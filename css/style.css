@@ -2,15 +2,11 @@ body{
     font-family: 'Times New Roman', Times, serif;
     padding: 0%;
     margin: auto;
+    background-color: white;
 }
 .navbar-brand{
   font-family:'Times New Roman', Times, serif;
   color: brown;
-}
-.hero{
-    height:80vh;
-    width: auto;
-    padding: 10px 15px;
 }
 .header{
   margin-left: 22%;
@@ -19,28 +15,14 @@ body{
   border-radius: 5px;
   border: black 1px solid;
 }
-a {
-    text-decoration: none; 
-  }
-a.button {
-    display: inline-block;
-    margin-left: 30%;
-    padding: 10px 50px;
-    background-color: #f9f791; 
-    text-decoration: none; 
-    color: black;
+p span{
+  margin-left: 50px;
 }
-a.button:hover {
-    background-color: #ebdd3d; 
-}
-
 /* education */
 .card-education{
   border-radius: 3px;
 }
-
  /* project */
-
 .img-details {
   color: black;
   background-color:white; 
