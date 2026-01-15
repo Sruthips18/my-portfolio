@@ -1,219 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
     <title>My Portfolio</title>
 </head>
+
 <body>
-      <!-- ----------------navbar--------------------------------------------------- -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">SRUTHI P S</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+    <!-- ----------------navbar--------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">SRUTHI P S</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">SKILLS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">PROJECTS</a>
-                        </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">COURSES</a>
-                        </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">EDUCATION</a>
-                        </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACT</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">COURSES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">EDUCATION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-      <!-- ----------------navbar ends----------------------------------------------- -->
-       <!-- ----------------header ----------------------------------------------------- -->
-    <div class="container-fluid hero mt-2">
-        <div class="bg-white shadow-lg rounded-2xl p-8 w-96 text-center p-4">
-            <div class="row">
-                <div class="col-lg-6 mt-4">
-                    <h2 class="text-lg text-gray-500">Hello!</h2>
-                    <h1 class="text-2xl font-bold">I'm <span class="text-blue-500">Sruthi P S</span></h1>
-                    <h5 class="text-xl font-semibold"><i>Frontend Developer & UI/UX Developer</i></h5>
-                    <div class="flex justify-center space-x-6 mt-4">
-                        <a href="https://raw.githubusercontent.com/Sruthips18/my-portfolio/main/resume/SRUTHI_PS_RESUME.pdf"  target="_blank"  class="btn btn-outline-dark" download>
-                            Resume<i class="fa fa-download"></i></a>
-                        <a href="#contact" class="btn btn-outline-dark">
-                            Contact</a>
+    <!-- ----------------navbar ends----------------------------------------------- -->
+
+    <!-- ----------------header ----------------------------------------------------- -->
+    <div class="container-fluid hero mt-5">
+        <div class="bg-white text-center">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-lg-start text-center">
+                    <h2 class="mb-2">Hello, I'm</h2>
+                    <h1 class="display-4 text-primary fw-bold">Sruthi P S</h1>
+                    <h5 class="mb-4"><i>Digital Marketer & Frontend Developer</i></h5>
+                    <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+                        <a href="https://raw.githubusercontent.com/Sruthips18/my-portfolio/main/resume/SRUTHI_PS_RESUME.pdf"
+                            target="_blank" class="btn btn-outline-danger rounded-pill px-4" download>
+                            Resume <i class="fa fa-download ms-2"></i></a>
+                        <a href="#contact" class="btn btn-primary rounded-pill px-4">
+                            Contact Me</a>
                     </div>
-                    <div class="flex justify-center space-x-6 mt-3">
-                        <a href="https://www.linkedin.com/in/sruthi-p-s-aa1b54211/" class="">
-                            <i class="fa-brands fa-linkedin fa-lg" title="LinkedIn" style="margin: 10px;"></i></a>
-
-                        <a href="mailto:sruthipskappummal@gmail.com" class="">
-                            <i class="fa-solid fa-envelope fa-lg" title="Email" style="margin: 10px;"></i></a>
-
-                        <a href="https://github.com/Sruthips18" class="">
-                            <i class="fa-brands fa-github fa-lg" title="Git" style="margin: 10px;"></i></a>
+                    <div class="d-flex justify-content-center justify-content-lg-start gap-4 mt-4">
+                        <a href="https://www.linkedin.com/in/sruthi-p-s-aa1b54211/" class="text-secondary fs-4"><i
+                                class="fa-brands fa-linkedin hover-primary"></i></a>
+                        <a href="mailto:sruthipskappummal@gmail.com" class="text-secondary fs-4"><i
+                                class="fa-solid fa-envelope hover-primary"></i></a>
+                        <a href="https://github.com/Sruthips18" class="text-secondary fs-4"><i
+                                class="fa-brands fa-github hover-primary"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="flex justify-center">
-                        <img src="image/portfolio-img.jpg" alt="Profile Picture" class="img-fluid">
-                    </div>        
+                <div class="col-lg-5 mt-4 mt-lg-0">
+                    <img src="image/portfolio-img.jpg" alt="Profile Picture"
+                        class="img-fluid rounded-circle shadow-lg p-2 bg-white"
+                        style="width: 300px; height: 300px; object-fit: cover;">
                 </div>
             </div>
         </div>
-     </div>
+    </div>
     <!-- -------------- header section ends ------------------------------------------ -->
+
     <!-- -------------- About section starts ---------------------------------------- -->
-    <div class="container mt-4 about" id="about">
-        <h4 class="">ABOUT ME</h4><hr>
-            <p class="mt-3 ">MCA graduate specializing in frontend development with HTML, CSS, and Bootstrap. Passionate about creating
-                responsive and user-friendly web interfaces.</p>
+    <div class="container mt-5" id="about">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="about mx-auto">
+                    <h4>ABOUT ME</h4>
+                    <hr>
+                    <p class="lead text-secondary">
+                        MCA graduate currently pursuing a Digital Marketing course with a focus on SEO. Skilled in
+                        keyword research, on-page optimization, and basic SEO techniques. Seeking an entry-level
+                        opportunity to
+                        apply skills and grow in a dynamic environment.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- -------------- About section ends ------------------------------------------ -->
-     <!-----------------skill section starts------------------------------------  -->
-     <div class="container mt-5" id="skills">
-        <h3 class="">SKILLS</h3><hr>
-        <div class="skill mt-3">
-            <ul>
-            <li class="skill">Proficiency in HTML5,CSS3,Bootstrap</li>
-            <li class="skill">Basic JavaScript (DOM manipulation, event handling)</li>
-            <li class="skill">Basic Website Structure & Layout Design, Performance Optimization (minimizing CSS, using CDN)</li>
-            <li class="skill"><b>HTML:</b> Semantic HTML5 (header section etc.), Forms & Input Elements (validation attributes), Tables &
-                                 Accessibility Features, Multimedia Elements (audio video images)</li>
-            <li class="skill"><b>CSS:</b> Selectors Box Model Display & Positioning, Flexbox & CSS Grid for Layouts, Animations & Transitions,
-                                  Media Queries (Responsive Design)</li>
-            <li class="skill"><b>Bootstrap: </b>Bootstrap Grid System (containers rows columns), Bootstrap Components (buttons modals alerts
-                                 cards), Forms & Input Styling</li>
-            <li class="skill"><b>Design & Prototyping:</b> Figma</li>
-            <li class="skill"> <b>Version Control: </b>Git & GitHub for code management.</li>
-            <li class="skill"> <b>IDE : </b>Visual Studio Code</li>
 
-            </ul>
+    <!-----------------skill section starts------------------------------------  -->
+    <div class="container mt-5" id="skills">
+        <h3>SKILLS</h3>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <ul class="skill-list">
+                    <li class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</li>
+                    <li class="skill-tag"><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+                    <li class="skill-tag"><i class="fa-brands fa-figma"></i> Figma & Canva</li>
+                    <li class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+                    <li class="skill-tag"><i class="fa-brands fa-facebook"></i> Social Media Marketing</li>
+                    <li class="skill-tag"><i class="fa-brands fa-google"></i> SEO (On-Page/Off-Page)</li>
+                    <li class="skill-tag"><i class="fa-solid fa-map-location-dot"></i> Local SEO</li>
+                    <li class="skill-tag"><i class="fa-solid fa-magnifying-glass-chart"></i> SEM</li>
+                    <li class="skill-tag"><i class="fa-brands fa-wordpress"></i> WordPress & Elementor</li>
+                    <li class="skill-tag"><i class="fa-brands fa-shopify"></i> Shopify</li>
+                    <li class="skill-tag"><i class="fa-solid fa-chart-line"></i> Google Analytics</li>
+                    <li class="skill-tag"><i class="fa-brands fa-searchengin"></i> SEMrush</li>
+                </ul>
+            </div>
         </div>
     </div>
     <!-----------------skill section ends------------------------------------  -->
-      <!-- --------------project section starts----------------------------------- -->
-      <div class="container" id="projects">
-        <h3 class="mt-5 ">PROJECTS</h3><hr>
-        <div class="row mt-3">
-            <div class="col-lg-4 mt-2">
-                <div class="card img-hover-container">
-                  <img src="image/project1.png" alt="">
-                </div>
-                <div class="img-details mt-1">
-                    <p>MiniStore is an e-commerce website designed for the sale of mobile phones, mobile services, and watches.</p>
-                    <p><a class="" href="https://sruthips18.github.io/ministore/">Github hosted Link</a></p>
-                    <p><a href="https://github.com/Sruthips18/ministore">Github Link</a></p>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-2">
-                <div class="card img-hover-container">
-                    <img src="image/project2.png" alt="">
-                </div>
-                <div class="img-details mt-1">
-                    <p>Spicey Restaurant is a vibrant dining destination that brings together rich flavors and a warm ambiance. 
-                    </p>
-                    <p><a class="" href="https://sruthips18.github.io/spicey-restaurant/">Github hosted Link</a></p>
-                    <p><a href="https://github.com/Sruthips18/spicey-restaurant">Github Link</a></p>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-2">
-                <div class="card img-hover-container">
-                    <img src="image/project3.png" alt="">
-                </div>
-                <div class="img-details mt-1">
-                    <p>Verdura is a home plant website offering a wide range of indoor plants, planters, and plant care essentials.</p>
-                    <p><a class="" href="https://sruthips18.github.io/home-plants/">Github hosted Link</a></p>
-                    <p><a href="https://github.com/Sruthips18/home-plants">Github Link</a></p>
-                </div>
-            </div>
-        </div>
-     </div>
 
-    <!-- --------------project section ends------------------------------------- -->
-    <!-- -----------------course section--------------------------------------- -->
-    <div class="container mt-5" id="education">
-        <h3 class="mt-5">COURSES & INTERNSHIP</h3><hr>
-        <div class="cart-text">
-            <h5 class="fw-bold">Luminar Technolab Kakkanad,Kochi</h5>
-            <p class="">Web Development</p>
-            <ul class="">
-                <li class="">HTML5 – Structuring web pages with semantic elements.</li>
-                <li class="">CSS3 – Styling layouts, flexbox, and grid system.</li>
-                <li class="">Bootstrap – Using responsive design frameworks for faster UI development.</li>
-            </ul>
+    <!-- --------------project section starts----------------------------------- -->
+    <div class="container" id="projects">
+        <h3 class="mt-5">PROJECTS</h3>
+        <hr>
+        <div class="row mt-3">
+            <!-- Kasturi Project -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="img-hover-container">
+                        <img src="image/kasturi.png" alt="Kasturi - Natural Skincare">
+                    </div>
+                    <div class="img-details">
+                        <div>
+                            <h5 class="fw-bold">Kasturi Skincare</h5>
+                            <p>Natural Skincare & Personal Care Website. Developed using WordPress, SEO optimized with
+                                Google Analytics integration.</p>
+                        </div>
+                        <div>
+                            <a class="project-btn btn-hosted" href="https://kasturi.rf.gd/">View Project <i
+                                    class="fa fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MiniStore Project -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="img-hover-container">
+                        <img src="image/project1.png" alt="MiniStore">
+                    </div>
+                    <div class="img-details">
+                        <div>
+                            <h5 class="fw-bold">MiniStore</h5>
+                            <p>E-commerce website designed for the sale of mobile phones, mobile services, and watches.
+                            </p>
+                        </div>
+                        <div>
+                            <a class="project-btn btn-hosted" href="https://sruthips18.github.io/ministore/">View
+                                Project <i class="fa fa-external-link-alt"></i></a>
+                            <a class="project-btn btn-github" href="https://github.com/Sruthips18/ministore">GitHub <i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spicey Restaurant Project -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="img-hover-container">
+                        <img src="image/project2.png" alt="Spicey Restaurant">
+                    </div>
+                    <div class="img-details">
+                        <div>
+                            <h5 class="fw-bold">Spicey Restaurant</h5>
+                            <p>A vibrant dining destination website that brings together rich flavors and a warm
+                                ambiance.</p>
+                        </div>
+                        <div>
+                            <a class="project-btn btn-hosted"
+                                href="https://sruthips18.github.io/spicey-restaurant/">View
+                                Project <i class="fa fa-external-link-alt"></i></a>
+                            <a class="project-btn btn-github"
+                                href="https://github.com/Sruthips18/spicey-restaurant">GitHub
+                                <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Verdura Project -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="img-hover-container">
+                        <img src="image/project3.png" alt="Verdura Plants">
+                    </div>
+                    <div class="img-details">
+                        <div>
+                            <h5 class="fw-bold">Verdura</h5>
+                            <p>Home plant website offering a wide range of indoor plants, planters, and plant care
+                                essentials.</p>
+                        </div>
+                        <div>
+                            <a class="project-btn btn-hosted" href="https://sruthips18.github.io/home-plants/">View
+                                Project <i class="fa fa-external-link-alt"></i></a>
+                            <a class="project-btn btn-github" href="https://github.com/Sruthips18/home-plants">GitHub <i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-        <!-- ----------------course section ends------------------------------------- -->
-      <!-----------------education section ends------------------------------------  -->
-      <div class="container mt-5" id="education">
-        <h3 class="mt-5">EDUCATION</h3><hr>
-            <h5 class="mt-3"><b>APJ Abdul Kalam Technological University</b></h5>
-                    <p class="">Master of Computer Application(MCA) </p>
-                    <p>Year : 2020 - 2022</p>
-                     <p>CGPA : 73%</p>
-                <h5 class="mt-4"><b>Calicut University</b></h5>
-                    <div class="cart-text">
-                        <p class="">Bsc.Computer Science </p>
-                            <p>Year : 2017 - 2019</p> 
-                            <p>CGPA : 64%</p>
-                    </div>
-      </div>
+    <!-- --------------project section ends------------------------------------- -->
+
+    <!-- -----------------course section--------------------------------------- -->
+    <div class="container mt-5" id="courses">
+        <h3 class="mt-5">COURSES & INTERNSHIP</h3>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <!-- New Course -->
+                <div class="education-card">
+                    <h5 class="fw-bold">Oxdu Future School, Calicut</h5>
+                    <p class="text-primary fw-bold">AI Integrated Digital Marketing</p>
+                    <p class="small text-muted mb-2">July 2025 - December 2025</p>
+                    <p class="text-secondary">Comprehensive training in modern digital marketing strategies integrated
+                        with Artificial Intelligence tools.</p>
+                </div>
+                <!-- Existing Course -->
+                <div class="education-card">
+                    <h5 class="fw-bold">Luminar Technolab Kakkanad, Kochi</h5>
+                    <p class="text-primary fw-bold">Web Development Internship</p>
+                    <ul class="text-secondary mt-2">
+                        <li>HTML5 – Structuring web pages with semantic elements.</li>
+                        <li>CSS3 – Styling layouts, flexbox, and grid system.</li>
+                        <li>Bootstrap – Using responsive design frameworks for faster UI development.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------course section ends------------------------------------- -->
+
     <!-----------------education section ends------------------------------------  -->
-     <!---------------- Contact Section ----------------------------------------->
-    <section class="section" id="contact">
+    <div class="container mt-5" id="education">
+        <h3 class="mt-5">EDUCATION</h3>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="education-card">
+                    <h5 class="fw-bold">APJ Abdul Kalam Technological University</h5>
+                    <p class="mb-1">Master of Computer Application (MCA)</p>
+                    <p class="small text-muted mb-0">2020 - 2022 | CGPA: 73%</p>
+                </div>
+                <div class="education-card">
+                    <h5 class="fw-bold">Calicut University</h5>
+                    <p class="mb-1">BSc. Computer Science</p>
+                    <p class="small text-muted mb-0">2017 - 2019 | CGPA: 64%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------education section ends------------------------------------  -->
+
+    <!---------------- Contact Section ----------------------------------------->
+    <section class="section pb-5" id="contact">
         <div class="container">
             <h3 class="mt-5">CONTACT ME</h3>
             <hr>
-    
-            <div class="row">
-                <!-- Contact Form -->
-                <div class="col-md-6">
-                    <form class="contact-form mb-2">
-                        <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card p-4 shadow-lg border-0">
+                        <div class="row">
+                            <!-- Contact Form -->
+                            <div class="col-md-7">
+                                <form class="contact-form mb-2">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Your Email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" rows="4" placeholder="Your Message"
+                                            required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </form>
+                            </div>
+                            <!-- Contact Details -->
+                            <div class="col-md-5 d-flex flex-column justify-content-center border-start ps-4">
+                                <div class="contact-info">
+                                    <p><i class="fa fa-map-marker-alt"></i> Kozhikode, Kerala</p>
+                                    <p><i class="fa fa-envelope"></i> sruthipskappummal@gmail.com</p>
+                                    <div class="mt-4">
+                                        <a href="https://www.linkedin.com/in/sruthi-p-s-aa1b54211/"
+                                            class="text-secondary fs-4 me-3"><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href="https://github.com/Sruthips18" class="text-secondary fs-4"><i
+                                                class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-    
-                <!-- Contact Details -->
-                <div class="col-md-6">
-                    <div class="contact-info mt-4">
-                        <p><i class="fa fa-map-marker"></i> Kozhikode, Kerala</p>
-                        <p><i class="fa fa-envelope"></i> 
-                            <a href="mailto:sruthipskappummal@gmail.com">sruthipskappummal@gmail.com</a>
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <!----------------- Footer --------------------------------------------------------->
-   <div class="container-fluid">
-    <footer class="bg-dark text-light">
-        <p class="d-flex justify-content-center mt-5">&copy; 2025 [Sruthi ps]. All Rights Reserved.</p>
-    </footer>
-   </div>
+    <div class="container-fluid p-0">
+        <footer class="bg-dark text-light text-center py-4">
+            <p class="mb-0">&copy; 2025 Sruthi P S. All Rights Reserved.</p>
+        </footer>
+    </div>
 
 </body>
+
 </html>
