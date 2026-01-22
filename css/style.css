@@ -112,12 +112,22 @@ hr {
 }
 
 /* Skills Section */
+.skill-category-title {
+  font-weight: 600;
+  color: var(--dark-color);
+  text-align: left;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary-color);
+  font-size: 1.2rem;
+}
+
 .skill-list {
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 15px;
 }
 
