@@ -162,7 +162,7 @@ hr {
 
 .img-hover-container {
   overflow: hidden;
-  height: 220px;
+  height: 180px;
   border-bottom: 1px solid #f0f0f0;
 }
 
@@ -179,34 +179,36 @@ hr {
 }
 
 .img-details {
-  padding: 25px;
+  padding: 18px;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: calc(100% - 220px);
+  height: calc(100% - 180px);
 }
 
 .img-details h5 {
   color: var(--dark-color);
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
 }
 
 .img-details p {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--gray-text);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 1.5;
 }
 
 .project-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 18px;
-  margin: 4px;
+  padding: 6px 14px;
+  margin: 3px;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 600;
   transition: all 0.3s ease;
 }
